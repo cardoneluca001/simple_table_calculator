@@ -9,11 +9,11 @@
         <h1>Multiplication Tables</h1>
         <p>Enter the number of the multiplication table you want to know</p>
         <input id="inputTable" type="text">
-        <button onclick="calcolaTabellina()">calculate</button>
+        <button onclick="calculateTab()">calculate</button>
         <div id="viewTable"></div>
     </body>
     <script>
-        function calcolaTabellina() {
+        function calculateTab() {
         const val = document.getElementById('inputTable').value;
         let tab = '';
         for(let i=0; i<11; i++) {
